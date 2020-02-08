@@ -11,17 +11,32 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController storyboardIdentifier="ARViewID" id="BYZ-38-t0r" userLabel="ARView" customClass="ARViewController" customModule="Carnaval_4_0_Rosas_FEI" customModuleProvider="target" sceneMemberID="viewController">
-                    <arView key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                    <view key="view" contentMode="scaleToFill" id="Vmp-y7-U6R" customClass="ARView" customModule="RealityKit">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                    </arView>
+                        <subviews>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YFf-hH-Orf" customClass="ARCoachingOverlayView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="YFf-hH-Orf" firstAttribute="trailing" secondItem="OuA-tr-ca4" secondAttribute="trailing" id="5hk-ed-Cdj"/>
+                            <constraint firstAttribute="bottom" secondItem="YFf-hH-Orf" secondAttribute="bottom" id="5je-RB-OnZ"/>
+                            <constraint firstItem="YFf-hH-Orf" firstAttribute="top" secondItem="Vmp-y7-U6R" secondAttribute="top" id="cEJ-GT-qcd"/>
+                            <constraint firstItem="YFf-hH-Orf" firstAttribute="leading" secondItem="OuA-tr-ca4" secondAttribute="leading" id="cgP-Qx-Y6x"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="OuA-tr-ca4"/>
+                    </view>
                     <connections>
-                        <outlet property="arView" destination="8bC-Xf-vdC" id="TPV-4x-avp"/>
+                        <outlet property="arView" destination="Vmp-y7-U6R" id="tcH-Sd-oLw"/>
+                        <outlet property="coachingOverlay" destination="YFf-hH-Orf" id="lJw-ns-fnz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="138" y="134"/>
+            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
         </scene>
         <!--Intro View Controller-->
         <scene sceneID="G5U-gf-wns">
@@ -81,33 +96,38 @@
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoRosas" id="Mxd-Wh-BaU">
-                                <rect key="frame" x="120" y="84" width="174" height="234"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartButton" translatesAutoresizingMaskIntoConstraints="NO" id="aFd-9h-nr6">
+                                <rect key="frame" x="30" y="387.5" width="354" height="121"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoFEI" translatesAutoresizingMaskIntoConstraints="NO" id="ypn-2F-M19">
-                                <rect key="frame" x="100" y="630.5" width="214" height="191.5"/>
+                                <rect key="frame" x="69" y="642.5" width="276" height="111"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="276" id="28h-6B-NbQ"/>
+                                    <constraint firstAttribute="height" constant="111" id="5th-Sy-wtu"/>
+                                </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartButton" translatesAutoresizingMaskIntoConstraints="NO" id="aFd-9h-nr6">
-                                <rect key="frame" x="40" y="387.5" width="334" height="121"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoRosas" translatesAutoresizingMaskIntoConstraints="NO" id="Mxd-Wh-BaU">
+                                <rect key="frame" x="86.5" y="86.5" width="241" height="223"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="241" id="IGO-SQ-nNX"/>
+                                    <constraint firstAttribute="height" constant="223" id="vZX-R3-Sfc"/>
+                                </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="0V9-Re-oum"/>
                             <constraint firstItem="Svd-cx-SAw" firstAttribute="top" secondItem="JYx-DX-89I" secondAttribute="top" id="5ku-tp-zPb"/>
                             <constraint firstAttribute="bottom" secondItem="Svd-cx-SAw" secondAttribute="bottom" id="6Nt-QT-oBF"/>
-                            <constraint firstItem="z4G-2p-hw8" firstAttribute="trailing" secondItem="ypn-2F-M19" secondAttribute="trailing" constant="100" id="BOX-ZI-2pi"/>
+                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" id="8Bp-Dc-M0S"/>
                             <constraint firstItem="Svd-cx-SAw" firstAttribute="trailing" secondItem="JYx-DX-89I" secondAttribute="trailing" id="Eo3-ni-0V0"/>
                             <constraint firstItem="Svd-cx-SAw" firstAttribute="leading" secondItem="JYx-DX-89I" secondAttribute="leading" id="J15-Xi-OlL"/>
-                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="Smu-Cv-Wfg"/>
-                            <constraint firstItem="Mxd-Wh-BaU" firstAttribute="leading" secondItem="z4G-2p-hw8" secondAttribute="leading" constant="120" id="TwX-oV-wCq"/>
-                            <constraint firstItem="z4G-2p-hw8" firstAttribute="bottom" secondItem="ypn-2F-M19" secondAttribute="bottom" constant="40" id="X8A-F3-JjL"/>
-                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" id="ZLQ-Ob-oce"/>
-                            <constraint firstItem="z4G-2p-hw8" firstAttribute="trailing" secondItem="aFd-9h-nr6" secondAttribute="trailing" constant="40" id="bjp-CA-VrI"/>
-                            <constraint firstItem="aFd-9h-nr6" firstAttribute="leading" secondItem="z4G-2p-hw8" secondAttribute="leading" constant="40" id="fjZ-g2-n9K"/>
-                            <constraint firstItem="ypn-2F-M19" firstAttribute="leading" secondItem="z4G-2p-hw8" secondAttribute="leading" constant="100" id="mh0-Vi-toc"/>
-                            <constraint firstItem="Mxd-Wh-BaU" firstAttribute="top" secondItem="z4G-2p-hw8" secondAttribute="top" constant="40" id="pzz-EG-wNZ"/>
-                            <constraint firstAttribute="trailing" secondItem="Mxd-Wh-BaU" secondAttribute="trailing" constant="120" id="tLF-Qk-3gP"/>
+                            <constraint firstItem="Mxd-Wh-BaU" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="Pao-60-22P"/>
+                            <constraint firstItem="z4G-2p-hw8" firstAttribute="trailing" secondItem="aFd-9h-nr6" secondAttribute="trailing" constant="30" id="Vzz-58-ogp"/>
+                            <constraint firstItem="ypn-2F-M19" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="250" id="Yiv-NJ-Rst"/>
+                            <constraint firstItem="aFd-9h-nr6" firstAttribute="leading" secondItem="z4G-2p-hw8" secondAttribute="leading" constant="30" id="cji-Pe-Pg5"/>
+                            <constraint firstItem="Mxd-Wh-BaU" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="-250" id="gSn-os-OJZ"/>
+                            <constraint firstItem="ypn-2F-M19" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="qQ7-Ro-Nfy"/>
                         </constraints>
                         <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                         <viewLayoutGuide key="safeArea" id="z4G-2p-hw8"/>
@@ -122,7 +142,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KnI-JR-sja" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-730.39999999999998" y="136.69950738916256"/>
+            <point key="canvasLocation" x="-730.43478260869574" y="136.60714285714286"/>
         </scene>
     </scenes>
     <resources>
