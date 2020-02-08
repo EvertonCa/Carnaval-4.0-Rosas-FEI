@@ -21,6 +21,12 @@ class IntroViewController: UIViewController{
         self.loadMenuView()
     }
     
+    override var supportedInterfaceOrientations: UIInterfaceOrientationMask {
+        get {
+            return .portrait
+        }
+    }
+    
     override func viewDidAppear(_ animated: Bool) {
         DispatchQueue.main.asyncAfter(deadline: DispatchTime.now() + 2){
             self.anim1()

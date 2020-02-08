@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="crN-y2-Meg">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -12,11 +12,11 @@
             <objects>
                 <viewController storyboardIdentifier="ARHomeViewID" id="BYZ-38-t0r" userLabel="ARView" customClass="ARHomeViewController" customModule="Carnaval_4_0_Rosas_FEI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vmp-y7-U6R" customClass="ARView" customModule="RealityKit">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YFf-hH-Orf" customClass="ARCoachingOverlayView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -43,17 +43,17 @@
             <objects>
                 <viewController id="crN-y2-Meg" customClass="IntroViewController" customModule="Carnaval_4_0_Rosas_FEI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="QWQ-QR-8Kq">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="SplashBackground" translatesAutoresizingMaskIntoConstraints="NO" id="S6j-NN-fQ6">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoRosas" translatesAutoresizingMaskIntoConstraints="NO" id="5cN-rs-wSm">
-                                <rect key="frame" x="50" y="185" width="314" height="526"/>
+                                <rect key="frame" x="50" y="143" width="275" height="526"/>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TitleSplash" translatesAutoresizingMaskIntoConstraints="NO" id="zes-fY-cHH">
-                                <rect key="frame" x="20" y="660" width="374" height="172"/>
+                                <rect key="frame" x="20" y="576" width="335" height="172"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -89,67 +89,107 @@
             <objects>
                 <viewController storyboardIdentifier="MenuID" id="ovP-xG-apZ" customClass="MenuViewController" customModule="Carnaval_4_0_Rosas_FEI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="JYx-DX-89I">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Svd-cx-SAw">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="WhereLabel" translatesAutoresizingMaskIntoConstraints="NO" id="Mxd-Gh-4uq">
+                                <rect key="frame" x="35" y="244" width="305" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="305" id="58S-V1-Tri"/>
+                                    <constraint firstAttribute="height" constant="80" id="8Mw-XM-rBC"/>
+                                </constraints>
+                            </imageView>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartButton" translatesAutoresizingMaskIntoConstraints="NO" id="aFd-9h-nr6">
-                                <rect key="frame" x="57" y="318.5" width="300" height="99"/>
+                                <rect key="frame" x="19" y="406" width="337" height="90"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="300" id="eUu-qC-hZT"/>
-                                    <constraint firstAttribute="height" constant="99" id="nmo-u2-VM7"/>
+                                    <constraint firstAttribute="width" constant="337" id="3ll-UW-JN3"/>
+                                    <constraint firstAttribute="height" constant="90" id="HeW-V4-l1a"/>
                                 </constraints>
                             </imageView>
-                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VoltarButton" translatesAutoresizingMaskIntoConstraints="NO" id="aPM-9r-a1N">
-                                <rect key="frame" x="87" y="464" width="240" height="128"/>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SambodromoButton" translatesAutoresizingMaskIntoConstraints="NO" id="aPM-9r-a1N">
+                                <rect key="frame" x="27.666666666666657" y="324" width="320" height="82"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="128" id="9x8-BE-VyV"/>
-                                    <constraint firstAttribute="width" constant="240" id="kyI-YD-SWt"/>
-                                </constraints>
-                            </imageView>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoFEI" translatesAutoresizingMaskIntoConstraints="NO" id="ypn-2F-M19">
-                                <rect key="frame" x="69" y="642.5" width="276" height="111"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="276" id="28h-6B-NbQ"/>
-                                    <constraint firstAttribute="height" constant="111" id="5th-Sy-wtu"/>
+                                    <constraint firstAttribute="height" constant="82" id="ZRq-6b-cDS"/>
+                                    <constraint firstAttribute="width" constant="320" id="m6X-NK-5Jl"/>
                                 </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" tag="1" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoRosas" translatesAutoresizingMaskIntoConstraints="NO" id="Mxd-Wh-BaU">
-                                <rect key="frame" x="86.5" y="86.5" width="241" height="223"/>
+                                <rect key="frame" x="87.666666666666686" y="74" width="200" height="150"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="241" id="IGO-SQ-nNX"/>
-                                    <constraint firstAttribute="height" constant="223" id="vZX-R3-Sfc"/>
+                                    <constraint firstAttribute="width" constant="200" id="IGO-SQ-nNX"/>
+                                    <constraint firstAttribute="height" constant="150" id="vZX-R3-Sfc"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="KnowMoreLabel" translatesAutoresizingMaskIntoConstraints="NO" id="4EU-it-Tfc">
+                                <rect key="frame" x="67.666666666666686" y="496" width="240" height="75"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="75" id="sMO-8Z-9nx"/>
+                                    <constraint firstAttribute="width" constant="240" id="sWn-Ah-nbh"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="RosasFeiButton" translatesAutoresizingMaskIntoConstraints="NO" id="jL6-pW-CdA">
+                                <rect key="frame" x="17.666666666666671" y="571" width="170" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="80" id="Jxd-MM-oDI"/>
+                                    <constraint firstAttribute="width" constant="170" id="Par-nO-Ola"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cadCarButton" translatesAutoresizingMaskIntoConstraints="NO" id="CXW-Gc-Sbm">
+                                <rect key="frame" x="192.66666666666663" y="571" width="160" height="80"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="rRz-y8-d1C"/>
+                                    <constraint firstAttribute="height" constant="80" id="vxz-zD-ebI"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoFEI" translatesAutoresizingMaskIntoConstraints="NO" id="ypn-2F-M19">
+                                <rect key="frame" x="90" y="651" width="195" height="62"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="62" id="lou-FM-Ytw"/>
+                                    <constraint firstAttribute="width" constant="195" id="tzE-KR-6wP"/>
                                 </constraints>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
+                            <constraint firstItem="Mxd-Gh-4uq" firstAttribute="top" secondItem="Mxd-Wh-BaU" secondAttribute="bottom" constant="20" id="0uf-Dh-6pN"/>
                             <constraint firstItem="Svd-cx-SAw" firstAttribute="top" secondItem="JYx-DX-89I" secondAttribute="top" id="5ku-tp-zPb"/>
                             <constraint firstAttribute="bottom" secondItem="Svd-cx-SAw" secondAttribute="bottom" id="6Nt-QT-oBF"/>
+                            <constraint firstItem="4EU-it-Tfc" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="6vd-GR-tGV"/>
+                            <constraint firstItem="jL6-pW-CdA" firstAttribute="bottom" secondItem="ypn-2F-M19" secondAttribute="top" id="71h-eF-zfa"/>
+                            <constraint firstItem="4EU-it-Tfc" firstAttribute="bottom" secondItem="CXW-Gc-Sbm" secondAttribute="top" id="AMI-du-yNP"/>
+                            <constraint firstItem="aPM-9r-a1N" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="AQg-AL-lqw"/>
                             <constraint firstItem="Svd-cx-SAw" firstAttribute="trailing" secondItem="JYx-DX-89I" secondAttribute="trailing" id="Eo3-ni-0V0"/>
+                            <constraint firstItem="aFd-9h-nr6" firstAttribute="bottom" secondItem="4EU-it-Tfc" secondAttribute="top" id="HON-Q2-OBa"/>
+                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="Ii8-Qc-tpr"/>
                             <constraint firstItem="Svd-cx-SAw" firstAttribute="leading" secondItem="JYx-DX-89I" secondAttribute="leading" id="J15-Xi-OlL"/>
-                            <constraint firstItem="aPM-9r-a1N" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="80" id="N1p-N1-mkD"/>
+                            <constraint firstItem="aPM-9r-a1N" firstAttribute="top" secondItem="Mxd-Gh-4uq" secondAttribute="bottom" id="MBq-Tj-66D"/>
                             <constraint firstItem="Mxd-Wh-BaU" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="Pao-60-22P"/>
-                            <constraint firstItem="ypn-2F-M19" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="250" id="Yiv-NJ-Rst"/>
-                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="bAm-Qb-NTP"/>
-                            <constraint firstItem="aPM-9r-a1N" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="dcc-RV-83B"/>
-                            <constraint firstItem="Mxd-Wh-BaU" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="-250" id="gSn-os-OJZ"/>
-                            <constraint firstItem="ypn-2F-M19" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="qQ7-Ro-Nfy"/>
-                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="-80" id="yBr-4c-kvH"/>
+                            <constraint firstItem="Mxd-Gh-4uq" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="T0U-sX-oeW"/>
+                            <constraint firstItem="ypn-2F-M19" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="Uir-8k-B26"/>
+                            <constraint firstItem="aFd-9h-nr6" firstAttribute="top" secondItem="aPM-9r-a1N" secondAttribute="bottom" id="VVS-HG-bP3"/>
+                            <constraint firstItem="jL6-pW-CdA" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" constant="-85" id="Yku-UW-nAD"/>
+                            <constraint firstItem="CXW-Gc-Sbm" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" constant="85" id="YtC-5N-S0b"/>
+                            <constraint firstItem="CXW-Gc-Sbm" firstAttribute="centerY" secondItem="jL6-pW-CdA" secondAttribute="centerY" id="keW-fV-qB7"/>
+                            <constraint firstItem="Mxd-Wh-BaU" firstAttribute="top" secondItem="z4G-2p-hw8" secondAttribute="top" constant="30" id="vRY-2n-KNT"/>
                         </constraints>
                         <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                         <viewLayoutGuide key="safeArea" id="z4G-2p-hw8"/>
                     </view>
                     <connections>
+                        <outlet property="cadCarButton" destination="CXW-Gc-Sbm" id="2ve-D9-kaf"/>
+                        <outlet property="houseButtonView" destination="aFd-9h-nr6" id="fpq-Pg-VZR"/>
+                        <outlet property="knowMoreLabel" destination="4EU-it-Tfc" id="EvD-PD-8Zi"/>
                         <outlet property="logoFeiView" destination="ypn-2F-M19" id="3Ml-Z1-2fp"/>
                         <outlet property="logoRosasView" destination="Mxd-Wh-BaU" id="4Ey-tl-9nG"/>
                         <outlet property="menuView" destination="JYx-DX-89I" id="B30-tf-kJn"/>
-                        <outlet property="sambodromoView" destination="aPM-9r-a1N" id="Guw-Zs-fAu"/>
-                        <outlet property="startButtonView" destination="aFd-9h-nr6" id="fpq-Pg-VZR"/>
+                        <outlet property="rosasFeiButton" destination="jL6-pW-CdA" id="BFi-PU-2cr"/>
+                        <outlet property="sambodromoButtonView" destination="aPM-9r-a1N" id="Guw-Zs-fAu"/>
                         <outlet property="videoView" destination="Svd-cx-SAw" id="qud-gO-h0B"/>
+                        <outlet property="whereLabel" destination="Mxd-Gh-4uq" id="5TH-gD-Re1"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KnI-JR-sja" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
@@ -161,11 +201,11 @@
             <objects>
                 <viewController storyboardIdentifier="ARSambodromoViewID" id="h6v-Qp-pZ0" userLabel="ARView" customClass="ARSambodromoViewController" customModule="Carnaval_4_0_Rosas_FEI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8TQ-L7-jml" customClass="ARView" customModule="RealityKit">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2b-yd-65y" customClass="ARCoachingOverlayView">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             </view>
                         </subviews>
@@ -189,11 +229,15 @@
         </scene>
     </scenes>
     <resources>
+        <image name="KnowMoreLabel" width="1218.5" height="472.5"/>
         <image name="LogoFEI" width="500" height="191.5"/>
         <image name="LogoRosas" width="500" height="526"/>
+        <image name="RosasFeiButton" width="965.5" height="364.5"/>
+        <image name="SambodromoButton" width="1823.5" height="472.5"/>
         <image name="SplashBackground" width="621" height="1344"/>
-        <image name="StartButton" width="400" height="120.5"/>
+        <image name="StartButton" width="1918.5" height="471.5"/>
         <image name="TitleSplash" width="500" height="172"/>
-        <image name="VoltarButton" width="100" height="30"/>
+        <image name="WhereLabel" width="1918.5" height="472.5"/>
+        <image name="cadCarButton" width="885" height="365.5"/>
     </resources>
 </document>
