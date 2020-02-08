@@ -1,0 +1,27 @@
+[
+  {
+    "libraryIdentifier" : "6d7eafe4512d68a7d87900f5bf8324d6",
+    "format" : "model",
+    "displayName" : "Carro_alegorico_join_final.usdz"
+  },
+  {
+    "libraryIdentifier" : "b495429cd5fc78fbf0661ba0f844f1e1",
+    "format" : "model",
+    "displayName" : "robo_animado.usdz"
+  },
+  {
+    "libraryIdentifier" : "534c6e915cb641b68d05d926fb972afc",
+    "format" : "model",
+    "displayName" : "robo_idle.usdz"
+  },
+  {
+    "libraryIdentifier" : "a51a4d826830936b658351f2244d452f",
+    "format" : "model",
+    "displayName" : "Abre_alas.usdz"
+  },
+  {
+    "libraryIdentifier" : "760a7dd309437cf9233fbd79f9854aae",
+    "format" : "model",
+    "displayName" : "robo_sambista.usdz"
+  }
+]

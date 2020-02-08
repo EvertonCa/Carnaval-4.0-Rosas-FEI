@@ -1,7 +1,9 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina5_9" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -11,9 +13,35 @@
             <objects>
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" image="SplashBackground" translatesAutoresizingMaskIntoConstraints="NO" id="g6N-Sa-fc4">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="812"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoRosas" translatesAutoresizingMaskIntoConstraints="NO" id="4fO-mj-yQY">
+                                <rect key="frame" x="50" y="143" width="275" height="526"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="TitleSplash" translatesAutoresizingMaskIntoConstraints="NO" id="N3v-Nc-1RT">
+                                <rect key="frame" x="20" y="576" width="335" height="172"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="4fO-mj-yQY" secondAttribute="trailing" constant="50" id="3Su-iB-dm4"/>
+                            <constraint firstItem="4fO-mj-yQY" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="50" id="5Oy-SX-MzG"/>
+                            <constraint firstItem="N3v-Nc-1RT" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" constant="-30" id="9O3-KN-aAX"/>
+                            <constraint firstAttribute="trailing" secondItem="N3v-Nc-1RT" secondAttribute="trailing" constant="20" id="9qf-38-S0j"/>
+                            <constraint firstItem="g6N-Sa-fc4" firstAttribute="top" secondItem="Ze5-6b-2t3" secondAttribute="top" id="JW1-rl-0eu"/>
+                            <constraint firstItem="g6N-Sa-fc4" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" id="Q5T-L2-ErJ"/>
+                            <constraint firstItem="4fO-mj-yQY" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="VFr-aS-Ik9"/>
+                            <constraint firstItem="4fO-mj-yQY" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="aFK-M8-Z8q"/>
+                            <constraint firstItem="N3v-Nc-1RT" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="dcP-p1-ttZ"/>
+                            <constraint firstAttribute="trailing" secondItem="g6N-Sa-fc4" secondAttribute="trailing" id="pbl-Bg-5gR"/>
+                            <constraint firstItem="N3v-Nc-1RT" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leading" constant="20" id="qfi-el-mrc"/>
+                            <constraint firstAttribute="bottom" secondItem="g6N-Sa-fc4" secondAttribute="bottom" id="uwc-9T-kNQ"/>
+                        </constraints>
+                        <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>
@@ -22,4 +50,9 @@
             <point key="canvasLocation" x="53" y="375"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="LogoRosas" width="500" height="526"/>
+        <image name="SplashBackground" width="621" height="1344"/>
+        <image name="TitleSplash" width="500" height="172"/>
+    </resources>
 </document>

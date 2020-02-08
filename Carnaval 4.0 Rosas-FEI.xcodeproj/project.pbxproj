@@ -8,13 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		548BAC8323ECAECD00B3EBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BAC8223ECAECD00B3EBCB /* AppDelegate.swift */; };
-		548BAC8523ECAECD00B3EBCB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BAC8423ECAECD00B3EBCB /* ViewController.swift */; };
-		548BAC8723ECAECD00B3EBCB /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 548BAC8623ECAECD00B3EBCB /* Experience.rcproject */; };
+		548BAC8523ECAECD00B3EBCB /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BAC8423ECAECD00B3EBCB /* ARViewController.swift */; };
 		548BAC8A23ECAECD00B3EBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548BAC8823ECAECD00B3EBCB /* Main.storyboard */; };
 		548BAC8C23ECAED500B3EBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548BAC8B23ECAED500B3EBCB /* Assets.xcassets */; };
 		548BAC8F23ECAED500B3EBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548BAC8D23ECAED500B3EBCB /* LaunchScreen.storyboard */; };
 		548BAC9A23ECAED500B3EBCB /* Carnaval_4_0_Rosas_FEITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BAC9923ECAED500B3EBCB /* Carnaval_4_0_Rosas_FEITests.swift */; };
 		548BACA523ECAED500B3EBCB /* Carnaval_4_0_Rosas_FEIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BACA423ECAED500B3EBCB /* Carnaval_4_0_Rosas_FEIUITests.swift */; };
+		548BACB323EE44C100B3EBCB /* Experiencia Casa.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 548BACB223EE44C000B3EBCB /* Experiencia Casa.rcproject */; };
+		548BACB723EE61DF00B3EBCB /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BACB623EE61DF00B3EBCB /* IntroViewController.swift */; };
+		548BACB923EE626300B3EBCB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BACB823EE626300B3EBCB /* MenuViewController.swift */; };
+		548BACBB23EE634600B3EBCB /* rosas_background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 548BACBA23EE634500B3EBCB /* rosas_background.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +40,7 @@
 /* Begin PBXFileReference section */
 		548BAC7F23ECAECD00B3EBCB /* Carnaval 4.0 Rosas-FEI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carnaval 4.0 Rosas-FEI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		548BAC8223ECAECD00B3EBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		548BAC8423ECAECD00B3EBCB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		548BAC8623ECAECD00B3EBCB /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		548BAC8423ECAECD00B3EBCB /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
 		548BAC8923ECAECD00B3EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		548BAC8B23ECAED500B3EBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		548BAC8E23ECAED500B3EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +51,10 @@
 		548BACA023ECAED500B3EBCB /* Carnaval 4.0 Rosas-FEIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Carnaval 4.0 Rosas-FEIUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		548BACA423ECAED500B3EBCB /* Carnaval_4_0_Rosas_FEIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carnaval_4_0_Rosas_FEIUITests.swift; sourceTree = "<group>"; };
 		548BACA623ECAED500B3EBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		548BACB223EE44C000B3EBCB /* Experiencia Casa.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = "Experiencia Casa.rcproject"; sourceTree = "<group>"; };
+		548BACB623EE61DF00B3EBCB /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
+		548BACB823EE626300B3EBCB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		548BACBA23EE634500B3EBCB /* rosas_background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rosas_background.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +105,16 @@
 		548BAC8123ECAECD00B3EBCB /* Carnaval 4.0 Rosas-FEI */ = {
 			isa = PBXGroup;
 			children = (
+				548BACB523EE5E7600B3EBCB /* Background Video */,
 				548BAC8223ECAECD00B3EBCB /* AppDelegate.swift */,
-				548BAC8423ECAECD00B3EBCB /* ViewController.swift */,
-				548BAC8623ECAECD00B3EBCB /* Experience.rcproject */,
+				548BAC8423ECAECD00B3EBCB /* ARViewController.swift */,
+				548BACB223EE44C000B3EBCB /* Experiencia Casa.rcproject */,
 				548BAC8823ECAECD00B3EBCB /* Main.storyboard */,
 				548BAC8B23ECAED500B3EBCB /* Assets.xcassets */,
 				548BAC8D23ECAED500B3EBCB /* LaunchScreen.storyboard */,
 				548BAC9023ECAED500B3EBCB /* Info.plist */,
+				548BACB623EE61DF00B3EBCB /* IntroViewController.swift */,
+				548BACB823EE626300B3EBCB /* MenuViewController.swift */,
 			);
 			path = "Carnaval 4.0 Rosas-FEI";
 			sourceTree = "<group>";
@@ -126,6 +135,14 @@
 				548BACA623ECAED500B3EBCB /* Info.plist */,
 			);
 			path = "Carnaval 4.0 Rosas-FEIUITests";
+			sourceTree = "<group>";
+		};
+		548BACB523EE5E7600B3EBCB /* Background Video */ = {
+			isa = PBXGroup;
+			children = (
+				548BACBA23EE634500B3EBCB /* rosas_background.mp4 */,
+			);
+			path = "Background Video";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,6 +251,7 @@
 			files = (
 				548BAC8F23ECAED500B3EBCB /* LaunchScreen.storyboard in Resources */,
 				548BAC8C23ECAED500B3EBCB /* Assets.xcassets in Resources */,
+				548BACBB23EE634600B3EBCB /* rosas_background.mp4 in Resources */,
 				548BAC8A23ECAECD00B3EBCB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,9 +277,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548BAC8523ECAECD00B3EBCB /* ViewController.swift in Sources */,
+				548BAC8523ECAECD00B3EBCB /* ARViewController.swift in Sources */,
+				548BACB923EE626300B3EBCB /* MenuViewController.swift in Sources */,
+				548BACB323EE44C100B3EBCB /* Experiencia Casa.rcproject in Sources */,
 				548BAC8323ECAECD00B3EBCB /* AppDelegate.swift in Sources */,
-				548BAC8723ECAECD00B3EBCB /* Experience.rcproject in Sources */,
+				548BACB723EE61DF00B3EBCB /* IntroViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +457,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C45YPRDNJ2;
 				INFOPLIST_FILE = "Carnaval 4.0 Rosas-FEI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +476,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C45YPRDNJ2;
 				INFOPLIST_FILE = "Carnaval 4.0 Rosas-FEI/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
