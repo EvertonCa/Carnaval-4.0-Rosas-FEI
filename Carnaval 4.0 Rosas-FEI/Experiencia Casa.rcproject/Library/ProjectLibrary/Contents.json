@@ -23,5 +23,20 @@
     "libraryIdentifier" : "760a7dd309437cf9233fbd79f9854aae",
     "format" : "model",
     "displayName" : "robo_sambista.usdz"
+  },
+  {
+    "libraryIdentifier" : "309d6ab0d2a2e6fb243b47fd2fc4fe97",
+    "format" : "audio",
+    "displayName" : "rosas.mp3"
+  },
+  {
+    "libraryIdentifier" : "e8a5279deb9cab5b077f23297924a6c0",
+    "format" : "audio",
+    "displayName" : "Rosas experiencia casa.mp3"
+  },
+  {
+    "libraryIdentifier" : "ab8fd359c23b4e62264f8883b8cc2ba9",
+    "format" : "audio",
+    "displayName" : "Rosas experiencia casa.mp3"
   }
 ]

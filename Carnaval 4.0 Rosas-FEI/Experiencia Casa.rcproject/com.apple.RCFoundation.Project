@@ -194,8 +194,8 @@
                                         "configuration" : {
                                           "angularCoefficient" : 1,
                                           "animationStyle" : "basic",
-                                          "buildOutAnimationType" : "move out to below",
-                                          "distance" : 0.52873462438583374,
+                                          "buildOutAnimationType" : "move out to above",
+                                          "distance" : 0.2565186619758606,
                                           "duration" : 1,
                                           "fadeOut" : true,
                                           "linearCoefficient" : 1,
@@ -648,6 +648,34 @@
                                     }
                                   ],
                                   "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildInAnimationType" : "move in from above",
+                                          "distance" : 0.37008607387542725,
+                                          "duration" : 6,
+                                          "fadeIn" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "57F1F743-7430-496E-99B4-F63F4C3EF331"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "show"
+                                        }
+                                      },
+                                      "identifier" : "923D0233-21C7-4855-A15A-DF098D286B9F",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
                                 }
                               ],
                               "identifier" : "F73821F7-9D4C-475E-B0CF-F753C264A89C",
@@ -735,8 +763,7 @@
                                           "moveEase" : "easeInOut",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "1267C5F9-2431-4949-9B1D-D97A23009B37",
-                                            "57F1F743-7430-496E-99B4-F63F4C3EF331"
+                                            "1267C5F9-2431-4949-9B1D-D97A23009B37"
                                           ]
                                         },
                                         "name" : {
@@ -758,7 +785,7 @@
                                           "clipDuration" : 0,
                                           "clipStart" : 0,
                                           "iterations" : 1,
-                                          "multiplePerformType" : "stops current action",
+                                          "multiplePerformType" : "ignore request",
                                           "reversed" : false,
                                           "reverses" : false,
                                           "target" : [
@@ -770,6 +797,30 @@
                                         }
                                       },
                                       "identifier" : "E6DA3CAB-6BEA-4BB1-977C-2B66D3FE38F5",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:ab8fd359c23b4e62264f8883b8cc2ba9\/Rosas%20experiencia%20casa.mp3",
+                                          "loops" : false,
+                                          "target" : [
+                                            "1267C5F9-2431-4949-9B1D-D97A23009B37"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "arguments" : "stereoBypass",
+                                          "type" : "soundtrack"
+                                        }
+                                      },
+                                      "identifier" : "1C4C0E56-6F6D-4832-AA5E-28D0E457AA04",
                                       "isEnabled" : true
                                     }
                                   ],
@@ -974,6 +1025,34 @@
                                         }
                                       },
                                       "identifier" : "44D360E7-8783-4830-9AC9-13F11A7731D4",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildOutAnimationType" : "move out to above",
+                                          "distance" : 0.3245997428894043,
+                                          "duration" : 2,
+                                          "fadeOut" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "57F1F743-7430-496E-99B4-F63F4C3EF331"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "hide"
+                                        }
+                                      },
+                                      "identifier" : "D538A4BD-FC43-48FF-B94A-3461DABFD6A9",
                                       "isEnabled" : true
                                     }
                                   ],
@@ -1198,6 +1277,34 @@
                                     }
                                   ],
                                   "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "angularCoefficient" : 1,
+                                          "animationStyle" : "basic",
+                                          "buildInAnimationType" : "move in from above",
+                                          "distance" : 0.36437129974365234,
+                                          "duration" : 6,
+                                          "fadeIn" : true,
+                                          "linearCoefficient" : 1,
+                                          "moveEase" : "easeInOut",
+                                          "respectPhysics" : false,
+                                          "target" : [
+                                            "0BB2D824-7CF6-47CA-8BCB-3253CA19F8EA"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "show"
+                                        }
+                                      },
+                                      "identifier" : "ED28FBFC-9E69-41C1-B82A-A419A2D70B60",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
                                 }
                               ],
                               "identifier" : "54D447C9-22CC-4C70-BB94-42458A5C8403",
@@ -1217,7 +1324,7 @@
                                         "configuration" : {
                                           "angularCoefficient" : 1,
                                           "direction" : "clockwise",
-                                          "duration" : 40,
+                                          "duration" : 44,
                                           "linearCoefficient" : 1,
                                           "orbitalAxis" : [
                                             0,
@@ -1285,7 +1392,6 @@
                                           "moveEase" : "easeInOut",
                                           "respectPhysics" : false,
                                           "target" : [
-                                            "0BB2D824-7CF6-47CA-8BCB-3253CA19F8EA",
                                             "8EE3943C-A73A-4680-B4D6-FE51B87AB889"
                                           ]
                                         },
@@ -1320,6 +1426,30 @@
                                         }
                                       },
                                       "identifier" : "31E99E8E-102D-44EC-933B-D0B753379B98",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                },
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "audioType" : "play",
+                                          "filePath" : "audio:ab8fd359c23b4e62264f8883b8cc2ba9\/Rosas%20experiencia%20casa.mp3",
+                                          "loops" : false,
+                                          "target" : [
+                                            "0BB2D824-7CF6-47CA-8BCB-3253CA19F8EA"
+                                          ],
+                                          "volume" : 1
+                                        },
+                                        "name" : {
+                                          "arguments" : "stereoBypass",
+                                          "type" : "soundtrack"
+                                        }
+                                      },
+                                      "identifier" : "7FBD5431-1B2A-4263-8DDB-CA77F3893EDB",
                                       "isEnabled" : true
                                     }
                                   ],
@@ -1501,7 +1631,7 @@
                                           "animationStyle" : "basic",
                                           "buildOutAnimationType" : "move out to above",
                                           "distance" : 0.36019733548164368,
-                                          "duration" : 1,
+                                          "duration" : 2,
                                           "fadeOut" : true,
                                           "linearCoefficient" : 1,
                                           "moveEase" : "easeInOut",
@@ -3226,8 +3356,8 @@
                         2.0443439483642578,
                         0,
                         -0.031854957342147827,
-                        0.29928117990493774,
-                        0.46828699111938477,
+                        0.51243287324905396,
+                        -0.00070064881583675742,
                         1
                       ]
                     }
@@ -3460,21 +3590,21 @@
               "title" : "Menu",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.9352269172668457,
+                  0.95611864328384399,
                   0,
-                  -0.35404855012893677,
+                  -0.29297959804534912,
                   0,
-                  -0.12761771678924561,
-                  0.93277746438980103,
-                  -0.33710500597953796,
+                  -0.1008748859167099,
+                  0.93885713815689087,
+                  -0.3291982114315033,
                   0,
-                  0.33024856448173523,
-                  0.36045253276824951,
-                  0.87235873937606812,
+                  0.27506601810455322,
+                  0.34430676698684692,
+                  0.8976588249206543,
                   0,
-                  1.632969856262207,
-                  1.3926534652709961,
-                  1.70606529712677,
+                  1.8120919466018677,
+                  1.8661688566207886,
+                  4.1395063400268555,
                   1
                 ],
                 "sceneTransform" : [
