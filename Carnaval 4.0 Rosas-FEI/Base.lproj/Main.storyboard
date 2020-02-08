@@ -10,7 +10,7 @@
         <!--ARView-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="ARViewID" id="BYZ-38-t0r" userLabel="ARView" customClass="ARViewController" customModule="Carnaval_4_0_Rosas_FEI" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ARHomeViewID" id="BYZ-38-t0r" userLabel="ARView" customClass="ARHomeViewController" customModule="Carnaval_4_0_Rosas_FEI" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="Vmp-y7-U6R" customClass="ARView" customModule="RealityKit">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -36,7 +36,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137.68115942028987" y="133.92857142857142"/>
+            <point key="canvasLocation" x="138" y="-263"/>
         </scene>
         <!--Intro View Controller-->
         <scene sceneID="G5U-gf-wns">
@@ -97,7 +97,18 @@
                                 <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                             </view>
                             <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="StartButton" translatesAutoresizingMaskIntoConstraints="NO" id="aFd-9h-nr6">
-                                <rect key="frame" x="30" y="387.5" width="354" height="121"/>
+                                <rect key="frame" x="57" y="318.5" width="300" height="99"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="300" id="eUu-qC-hZT"/>
+                                    <constraint firstAttribute="height" constant="99" id="nmo-u2-VM7"/>
+                                </constraints>
+                            </imageView>
+                            <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="VoltarButton" translatesAutoresizingMaskIntoConstraints="NO" id="aPM-9r-a1N">
+                                <rect key="frame" x="87" y="464" width="240" height="128"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="128" id="9x8-BE-VyV"/>
+                                    <constraint firstAttribute="width" constant="240" id="kyI-YD-SWt"/>
+                                </constraints>
                             </imageView>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="LogoFEI" translatesAutoresizingMaskIntoConstraints="NO" id="ypn-2F-M19">
                                 <rect key="frame" x="69" y="642.5" width="276" height="111"/>
@@ -116,18 +127,18 @@
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
-                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="0V9-Re-oum"/>
                             <constraint firstItem="Svd-cx-SAw" firstAttribute="top" secondItem="JYx-DX-89I" secondAttribute="top" id="5ku-tp-zPb"/>
                             <constraint firstAttribute="bottom" secondItem="Svd-cx-SAw" secondAttribute="bottom" id="6Nt-QT-oBF"/>
-                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" id="8Bp-Dc-M0S"/>
                             <constraint firstItem="Svd-cx-SAw" firstAttribute="trailing" secondItem="JYx-DX-89I" secondAttribute="trailing" id="Eo3-ni-0V0"/>
                             <constraint firstItem="Svd-cx-SAw" firstAttribute="leading" secondItem="JYx-DX-89I" secondAttribute="leading" id="J15-Xi-OlL"/>
+                            <constraint firstItem="aPM-9r-a1N" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="80" id="N1p-N1-mkD"/>
                             <constraint firstItem="Mxd-Wh-BaU" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="Pao-60-22P"/>
-                            <constraint firstItem="z4G-2p-hw8" firstAttribute="trailing" secondItem="aFd-9h-nr6" secondAttribute="trailing" constant="30" id="Vzz-58-ogp"/>
                             <constraint firstItem="ypn-2F-M19" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="250" id="Yiv-NJ-Rst"/>
-                            <constraint firstItem="aFd-9h-nr6" firstAttribute="leading" secondItem="z4G-2p-hw8" secondAttribute="leading" constant="30" id="cji-Pe-Pg5"/>
+                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="bAm-Qb-NTP"/>
+                            <constraint firstItem="aPM-9r-a1N" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="dcc-RV-83B"/>
                             <constraint firstItem="Mxd-Wh-BaU" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="-250" id="gSn-os-OJZ"/>
                             <constraint firstItem="ypn-2F-M19" firstAttribute="centerX" secondItem="JYx-DX-89I" secondAttribute="centerX" id="qQ7-Ro-Nfy"/>
+                            <constraint firstItem="aFd-9h-nr6" firstAttribute="centerY" secondItem="JYx-DX-89I" secondAttribute="centerY" constant="-80" id="yBr-4c-kvH"/>
                         </constraints>
                         <edgeInsets key="layoutMargins" top="0.0" left="0.0" bottom="0.0" right="0.0"/>
                         <viewLayoutGuide key="safeArea" id="z4G-2p-hw8"/>
@@ -136,6 +147,7 @@
                         <outlet property="logoFeiView" destination="ypn-2F-M19" id="3Ml-Z1-2fp"/>
                         <outlet property="logoRosasView" destination="Mxd-Wh-BaU" id="4Ey-tl-9nG"/>
                         <outlet property="menuView" destination="JYx-DX-89I" id="B30-tf-kJn"/>
+                        <outlet property="sambodromoView" destination="aPM-9r-a1N" id="Guw-Zs-fAu"/>
                         <outlet property="startButtonView" destination="aFd-9h-nr6" id="fpq-Pg-VZR"/>
                         <outlet property="videoView" destination="Svd-cx-SAw" id="qud-gO-h0B"/>
                     </connections>
@@ -144,6 +156,37 @@
             </objects>
             <point key="canvasLocation" x="-730.43478260869574" y="136.60714285714286"/>
         </scene>
+        <!--ARView-->
+        <scene sceneID="scD-uq-NOp">
+            <objects>
+                <viewController storyboardIdentifier="ARSambodromoViewID" id="h6v-Qp-pZ0" userLabel="ARView" customClass="ARSambodromoViewController" customModule="Carnaval_4_0_Rosas_FEI" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8TQ-L7-jml" customClass="ARView" customModule="RealityKit">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="x2b-yd-65y" customClass="ARCoachingOverlayView">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="x2b-yd-65y" firstAttribute="top" secondItem="8TQ-L7-jml" secondAttribute="top" id="AoF-z5-Blw"/>
+                            <constraint firstItem="x2b-yd-65y" firstAttribute="trailing" secondItem="x7X-FM-lgH" secondAttribute="trailing" id="C3P-YG-7xy"/>
+                            <constraint firstItem="x2b-yd-65y" firstAttribute="leading" secondItem="x7X-FM-lgH" secondAttribute="leading" id="Dgd-Zr-NLo"/>
+                            <constraint firstAttribute="bottom" secondItem="x2b-yd-65y" secondAttribute="bottom" id="uva-0F-i5e"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="x7X-FM-lgH"/>
+                    </view>
+                    <connections>
+                        <outlet property="arView" destination="8TQ-L7-jml" id="t0q-o6-Ejf"/>
+                        <outlet property="coachingOverlay" destination="x2b-yd-65y" id="Buw-UB-0xR"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Cma-kD-E11" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="425"/>
+        </scene>
     </scenes>
     <resources>
         <image name="LogoFEI" width="500" height="191.5"/>
@@ -151,5 +194,6 @@
         <image name="SplashBackground" width="621" height="1344"/>
         <image name="StartButton" width="400" height="120.5"/>
         <image name="TitleSplash" width="500" height="172"/>
+        <image name="VoltarButton" width="100" height="30"/>
     </resources>
 </document>

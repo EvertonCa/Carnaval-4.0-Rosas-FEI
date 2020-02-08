@@ -1,0 +1,22 @@
+[
+  {
+    "libraryIdentifier" : "c2a6af76f1cdb712003aec4e7dada886",
+    "format" : "model",
+    "displayName" : "carro_novo.usdz"
+  },
+  {
+    "libraryIdentifier" : "a51a4d826830936b658351f2244d452f",
+    "format" : "model",
+    "displayName" : "Abre_alas.usdz"
+  },
+  {
+    "libraryIdentifier" : "6d7eafe4512d68a7d87900f5bf8324d6",
+    "format" : "model",
+    "displayName" : "Carro_alegorico_join_final.usdz"
+  },
+  {
+    "libraryIdentifier" : "ab8fd359c23b4e62264f8883b8cc2ba9",
+    "format" : "audio",
+    "displayName" : "Rosas experiencia casa.mp3"
+  }
+]

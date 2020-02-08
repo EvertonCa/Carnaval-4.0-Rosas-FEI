@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		548BAC8323ECAECD00B3EBCB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BAC8223ECAECD00B3EBCB /* AppDelegate.swift */; };
-		548BAC8523ECAECD00B3EBCB /* ARViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BAC8423ECAECD00B3EBCB /* ARViewController.swift */; };
+		548BAC8523ECAECD00B3EBCB /* ARHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BAC8423ECAECD00B3EBCB /* ARHomeViewController.swift */; };
 		548BAC8A23ECAECD00B3EBCB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548BAC8823ECAECD00B3EBCB /* Main.storyboard */; };
 		548BAC8C23ECAED500B3EBCB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 548BAC8B23ECAED500B3EBCB /* Assets.xcassets */; };
 		548BAC8F23ECAED500B3EBCB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 548BAC8D23ECAED500B3EBCB /* LaunchScreen.storyboard */; };
@@ -18,7 +18,10 @@
 		548BACB723EE61DF00B3EBCB /* IntroViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BACB623EE61DF00B3EBCB /* IntroViewController.swift */; };
 		548BACB923EE626300B3EBCB /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BACB823EE626300B3EBCB /* MenuViewController.swift */; };
 		548BACBB23EE634600B3EBCB /* rosas_background.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 548BACBA23EE634500B3EBCB /* rosas_background.mp4 */; };
-		548BACC723EE995C00B3EBCB /* ARViewController+ARAnchorPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BACC623EE995C00B3EBCB /* ARViewController+ARAnchorPlacement.swift */; };
+		548BACC723EE995C00B3EBCB /* ARHomeViewController+ARAnchorPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BACC623EE995C00B3EBCB /* ARHomeViewController+ARAnchorPlacement.swift */; };
+		548BACC923EEBF0F00B3EBCB /* FechaAlas.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 548BACC823EEBF0E00B3EBCB /* FechaAlas.rcproject */; };
+		548BACCB23EEC12700B3EBCB /* ARSambodromoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BACCA23EEC12700B3EBCB /* ARSambodromoViewController.swift */; };
+		548BACCD23EEC18D00B3EBCB /* ARSambodromoViewController+ARAnchorPlacement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548BACCC23EEC18D00B3EBCB /* ARSambodromoViewController+ARAnchorPlacement.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +44,7 @@
 /* Begin PBXFileReference section */
 		548BAC7F23ECAECD00B3EBCB /* Carnaval 4.0 Rosas-FEI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Carnaval 4.0 Rosas-FEI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		548BAC8223ECAECD00B3EBCB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		548BAC8423ECAECD00B3EBCB /* ARViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARViewController.swift; sourceTree = "<group>"; };
+		548BAC8423ECAECD00B3EBCB /* ARHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARHomeViewController.swift; sourceTree = "<group>"; };
 		548BAC8923ECAECD00B3EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		548BAC8B23ECAED500B3EBCB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		548BAC8E23ECAED500B3EBCB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,7 +59,10 @@
 		548BACB623EE61DF00B3EBCB /* IntroViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroViewController.swift; sourceTree = "<group>"; };
 		548BACB823EE626300B3EBCB /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		548BACBA23EE634500B3EBCB /* rosas_background.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = rosas_background.mp4; sourceTree = "<group>"; };
-		548BACC623EE995C00B3EBCB /* ARViewController+ARAnchorPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARViewController+ARAnchorPlacement.swift"; sourceTree = "<group>"; };
+		548BACC623EE995C00B3EBCB /* ARHomeViewController+ARAnchorPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARHomeViewController+ARAnchorPlacement.swift"; sourceTree = "<group>"; };
+		548BACC823EEBF0E00B3EBCB /* FechaAlas.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = FechaAlas.rcproject; sourceTree = "<group>"; };
+		548BACCA23EEC12700B3EBCB /* ARSambodromoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ARSambodromoViewController.swift; sourceTree = "<group>"; };
+		548BACCC23EEC18D00B3EBCB /* ARSambodromoViewController+ARAnchorPlacement.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ARSambodromoViewController+ARAnchorPlacement.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,9 +115,12 @@
 			children = (
 				548BACB523EE5E7600B3EBCB /* Background Video */,
 				548BAC8223ECAECD00B3EBCB /* AppDelegate.swift */,
-				548BACC623EE995C00B3EBCB /* ARViewController+ARAnchorPlacement.swift */,
-				548BAC8423ECAECD00B3EBCB /* ARViewController.swift */,
+				548BACC623EE995C00B3EBCB /* ARHomeViewController+ARAnchorPlacement.swift */,
+				548BAC8423ECAECD00B3EBCB /* ARHomeViewController.swift */,
+				548BACCC23EEC18D00B3EBCB /* ARSambodromoViewController+ARAnchorPlacement.swift */,
+				548BACCA23EEC12700B3EBCB /* ARSambodromoViewController.swift */,
 				548BACB223EE44C000B3EBCB /* Experiencia Casa.rcproject */,
+				548BACC823EEBF0E00B3EBCB /* FechaAlas.rcproject */,
 				548BAC8823ECAECD00B3EBCB /* Main.storyboard */,
 				548BAC8B23ECAED500B3EBCB /* Assets.xcassets */,
 				548BAC8D23ECAED500B3EBCB /* LaunchScreen.storyboard */,
@@ -280,10 +289,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				548BAC8523ECAECD00B3EBCB /* ARViewController.swift in Sources */,
+				548BACCD23EEC18D00B3EBCB /* ARSambodromoViewController+ARAnchorPlacement.swift in Sources */,
+				548BACCB23EEC12700B3EBCB /* ARSambodromoViewController.swift in Sources */,
+				548BAC8523ECAECD00B3EBCB /* ARHomeViewController.swift in Sources */,
 				548BACB923EE626300B3EBCB /* MenuViewController.swift in Sources */,
+				548BACC923EEBF0F00B3EBCB /* FechaAlas.rcproject in Sources */,
 				548BACB323EE44C100B3EBCB /* Experiencia Casa.rcproject in Sources */,
-				548BACC723EE995C00B3EBCB /* ARViewController+ARAnchorPlacement.swift in Sources */,
+				548BACC723EE995C00B3EBCB /* ARHomeViewController+ARAnchorPlacement.swift in Sources */,
 				548BAC8323ECAECD00B3EBCB /* AppDelegate.swift in Sources */,
 				548BACB723EE61DF00B3EBCB /* IntroViewController.swift in Sources */,
 			);
@@ -458,6 +470,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C45YPRDNJ2;
 				INFOPLIST_FILE = "Carnaval 4.0 Rosas-FEI/Info.plist";
@@ -466,7 +479,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Everton.Carnaval-4-0-Rosas-FEI";
+				PRODUCT_BUNDLE_IDENTIFIER = "Everton.Carnaval-Rosas-FEI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -477,6 +490,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = C45YPRDNJ2;
 				INFOPLIST_FILE = "Carnaval 4.0 Rosas-FEI/Info.plist";
@@ -485,7 +499,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "Everton.Carnaval-4-0-Rosas-FEI";
+				PRODUCT_BUNDLE_IDENTIFIER = "Everton.Carnaval-Rosas-FEI";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

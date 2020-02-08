@@ -17,6 +17,7 @@ class MenuViewController: UIViewController{
     @IBOutlet weak var startButtonView: UIImageView!
     @IBOutlet weak var videoView: UIView!
     @IBOutlet var menuView: UIView!
+    @IBOutlet weak var sambodromoView: UIImageView!
     
     var player: AVPlayer!
     
@@ -27,10 +28,13 @@ class MenuViewController: UIViewController{
         self.logoFeiView.alpha = 0
         self.logoRosasView.alpha = 0
         self.videoView.alpha = 0
+        self.sambodromoView.alpha = 0
         setupView()
         fadeInVideo()
-        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(MenuViewController.start))
+        let tapRecognizer = UITapGestureRecognizer(target: self, action: #selector(MenuViewController.startHome))
         startButtonView.addGestureRecognizer(tapRecognizer)
+        let tapRecognizer2 = UITapGestureRecognizer(target: self, action: #selector(MenuViewController.startSambodromo))
+        sambodromoView.addGestureRecognizer(tapRecognizer2)
     }
     
     private func setupView(){
@@ -50,13 +54,23 @@ class MenuViewController: UIViewController{
         }
     }
     
-    @objc func start(){
+    @objc func startHome(){
         self.player.pause()
         let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let ARViewController = storyBoard.instantiateViewController(withIdentifier: "ARViewID") as! ARViewController
+        let ARViewController = storyBoard.instantiateViewController(withIdentifier: "ARHomeViewID") as! ARHomeViewController
         ARViewController.modalPresentationStyle = .fullScreen
         ARViewController.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
         self.present(ARViewController, animated: true, completion: nil)
+        menuView.removeFromSuperview()
+    }
+    
+    @objc func startSambodromo(){
+        self.player.pause()
+        let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let arSambodromoViewController = storyBoard.instantiateViewController(withIdentifier: "ARSambodromoViewID") as! ARSambodromoViewController
+        arSambodromoViewController.modalPresentationStyle = .fullScreen
+        arSambodromoViewController.modalTransitionStyle = UIModalTransitionStyle.crossDissolve
+        self.present(arSambodromoViewController, animated: true, completion: nil)
         menuView.removeFromSuperview()
     }
     
@@ -73,6 +87,7 @@ class MenuViewController: UIViewController{
             self.startButtonView.alpha = 1.0
             self.logoFeiView.alpha = 1.0
             self.logoRosasView.alpha = 1.0
+            self.sambodromoView.alpha = 1.0
         })
     }
 
